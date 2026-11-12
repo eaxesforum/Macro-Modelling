@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use code from this repository, please cite the original paper
+  of the specific model you use, as well as this repository.
+title: "Macro-Modelling: An Open Library of Macroeconomic Models"
+type: software
+authors:
+  - name: "E-axes Forum"
+    website: "https://e-axes.org"
+    email: "info@e-axes.org"
+repository-code: "https://github.com/eaxesforum/Macro-Modelling"
+url: "https://e-axes.org"
+abstract: >-
+  An open, community-contributed library of macroeconomic models and
+  replication packages, with a focus on climate economics, sustainable
+  finance and macro-financial linkages. Curated by the E-axes Forum.
+keywords:
+  - macroeconomics
+  - DSGE
+  - climate economics
+  - sustainable finance
+  - replication
+  - Dynare
+license: MIT
+date-released: "2026-11-12"
