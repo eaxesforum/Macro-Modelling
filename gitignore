@@ -1,0 +1,90 @@
+# ============================================
+# .gitignore for Macro-Modelling
+# Files listed here are never uploaded to GitHub
+# ============================================
+
+# ---------- Operating system ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- MATLAB ----------
+*.asv
+*.m~
+*.mex*
+slprj/
+*.autosave
+
+# ---------- Dynare (generated files) ----------
+# Dynare regenerates these every time a .mod file is run
++*/
+*_dynamic.m
+*_static.m
+*_set_auxiliary_variables.m
+*_results.mat
+*.log
+*.jnl
+*.eps
+*_mode.mat
+*_mh_mode.mat
+*_variables.mat
+*_options.mat
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ---------- R ----------
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+renv/library/
+renv/staging/
+
+# ---------- Julia ----------
+*.jl.cov
+*.jl.mem
+deps/build.log
+
+# ---------- Stata ----------
+*.smcl
+*.stswp
+
+# ---------- LaTeX (if papers/notes are included) ----------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# ---------- Secrets and credentials (never upload) ----------
+.env
+*.key
+*credentials*
+*secret*
+config_local.*
+
+# ---------- Large or temporary data ----------
+*.tmp
+*.bak
+tmp/
+temp/
+# Uncomment if raw data should be downloaded rather than uploaded:
+# data/raw/

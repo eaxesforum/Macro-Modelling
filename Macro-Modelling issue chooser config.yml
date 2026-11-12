@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: E-axes Forum website
+    url: https://e-axes.org
+    about: Learn more about the E-axes Forum and its research activities.
+  - name: Contact the E-axes Forum team
+    url: mailto:info@e-axes.org
+    about: For questions that are not bugs or model proposals.
